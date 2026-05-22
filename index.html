@@ -16,9 +16,13 @@
         <h1>Tandy 12 Bridge Installer</h1>
         <p>Plug your ESP32 into your computer via USB and click the button below to flash the firmware. (Requires Chrome or Edge).</p>
         
-        <!-- THE MAGIC INSTALL BUTTON -->
-        <script type="module" src="https://unpkg.com/esp-web-tools@9.0.1/dist/web/bundle.js"></script>
-        <esp-web-install-button manifest="manifest.json"> <span slot="unsupported">Your browser does not support Web Serial! Please use Chrome.</span> <span slot="not-allowed">You must use HTTPS to flash the device.</span> </esp-web-install-button>
+        <!-- THE CORRECTED SCRIPT TAG -->
+        <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
+        
+        <esp-web-install-button manifest="manifest.json">
+            <span slot="unsupported">Your browser does not support Web Serial! Please use Chrome or Edge.</span>
+            <span slot="not-allowed">You must use HTTPS to flash the device.</span>
+        </esp-web-install-button>
     </div>
 </body>
 </html>
