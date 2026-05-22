@@ -18,7 +18,7 @@
         
         <!-- THE MAGIC INSTALL BUTTON -->
         <script type="module" src="https://unpkg.com/esp-web-tools@9.0.1/dist/web/bundle.js"></script>
-        <esp-web-install-button manifest="manifest.json"></esp-web-install-button>
+        <esp-web-install-button manifest="manifest.json"> <span slot="unsupported">Your browser does not support Web Serial! Please use Chrome.</span> <span slot="not-allowed">You must use HTTPS to flash the device.</span> </esp-web-install-button>
     </div>
 </body>
 </html>
