@@ -30,7 +30,7 @@ GND		| GND		| Common Ground		| 3		| 5
 Installation
 1.	Plug the ESP32 into your computer via USB.
 2.	Open Google Chrome or Microsoft Edge (Safari/Firefox do not support Web Serial).
-3.	Visit the Web Installer Page: https://max120l.github.io/tandy-bridge-flasher/
+3.	Visit the Web Installer Page: https://max120l.github.io/TRS-80-bt-bridge
 4.	Click Connect, select your USB port, and click Install.
 
 ## Configuration
